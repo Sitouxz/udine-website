@@ -1,0 +1,12 @@
+.star-container {
+  line-height: 0;
+}
+
+.star-icon {
+  font-size: 12px;
+}
+
+.card-comment {
+  height: 70px;
+  overflow-y: scroll;
+}

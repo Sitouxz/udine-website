@@ -28,3 +28,13 @@ $custom-colors: (
 $theme-colors: map-merge($custom-colors, $theme-colors);
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .my-card {
+    flex: 1 0 20em;
+  }
+}
