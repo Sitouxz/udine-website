@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.svg" />
     <!-- CSS only -->
     <link rel="stylesheet" href="./assets/css/main.min.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
@@ -53,13 +53,15 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Vote</a>
+                <a class="nav-link" href="#">Rate</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Best Food</a>
+                <a class="nav-link" href="./pages/best-menu.html">Best Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Overall Rating</a>
+                <a class="nav-link" href="./pages/overall-rating.html"
+                  >Overall Rating</a
+                >
               </li>
             </ul>
           </div>
@@ -69,13 +71,19 @@
 
     <!-- Begin page content -->
     <main class="mt-4">
-      <div class="container d-flex justify-content-between flex-lg-row flex-column">
+      <div
+        class="container d-flex justify-content-between flex-lg-row flex-column"
+      >
         <div class="d-flex align-items-center">
-          <h3 class="fw-semibold text-primary me-3">Rating</h1>
+          <h3 class="fw-semibold text-primary me-3">Rating</h3>
           <p class="mt-2 fw-light">Don't forget to eat so u won't get sick</p>
         </div>
-        <div class="d-flex flex-row-reverse flex-lg-row justify-content-between">
-          <p class="fw-medium text-primary lh-sm me-lg-3 text-lg-end text-start">
+        <div
+          class="d-flex flex-row-reverse flex-lg-row justify-content-between"
+        >
+          <p
+            class="fw-medium text-primary lh-sm me-lg-3 text-lg-end text-start"
+          >
             Sunday <br />
             <span class="text-primary-dark">31 December 2022</span>
           </p>
@@ -89,9 +97,24 @@
         </div>
       </div>
       <div class="container-lg mt-3">
-        <div class="d-flex justify-content-between align-items-center">
-          <h3>Environment</h3>
-          <a class="text-decoration-none fw-medium text-muted">View all</a>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="d-flex justify-content-center align-items-center">
+            <i
+              class="bi bi-exclamation-circle-fill me-2 fs-5"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              title="Rating about the environment"
+            ></i>
+            <h3 class="m-0 me-2">Environment</h3>
+            <span class="text-muted me-1">4.5</span
+            ><i class="bi bi-star-fill star-icon text-warning"></i>
+          </div>
+          <a
+            class="text-decoration-none fw-medium text-muted"
+            href="./pages/environment.html"
+            >View all</a
+          >
         </div>
         <div class="d-flex gap-2 card-container">
           <div class="border border-3 rounded-4 text-center p-3 pt-2 my-card">
@@ -113,7 +136,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -136,7 +162,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -159,16 +188,34 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="container-lg mt-3">
-        <div class="d-flex justify-content-between align-items-center">
-          <h3>Service</h3>
-          <a class="text-decoration-none fw-medium text-muted">View all</a>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="d-flex justify-content-center align-items-center">
+            <i
+              class="bi bi-exclamation-circle-fill me-2 fs-5"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              title="Rating about how they serve you"
+            ></i>
+            <h3 class="m-0 me-2">Service</h3>
+            <span class="text-muted me-1">4.5</span
+            ><i class="bi bi-star-fill star-icon text-warning"></i>
+          </div>
+          <a
+            class="text-decoration-none fw-medium text-muted"
+            href="./pages/service.html"
+            >View all</a
+          >
         </div>
         <div class="d-flex gap-2 card-container">
           <div class="border border-3 rounded-4 text-center p-3 pt-2 my-card">
@@ -190,7 +237,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -213,7 +263,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -236,16 +289,34 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="container-lg mt-3">
-        <div class="d-flex justify-content-between align-items-center">
-          <h3>Food</h3>
-          <a class="text-decoration-none fw-medium text-muted">View all</a>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <div class="d-flex justify-content-center align-items-center">
+            <i
+              class="bi bi-exclamation-circle-fill me-2 fs-5"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              title="Rating how the food taste"
+            ></i>
+            <h3 class="m-0 me-2">Food</h3>
+            <span class="text-muted me-1">4.5</span
+            ><i class="bi bi-star-fill star-icon text-warning"></i>
+          </div>
+          <a
+            class="text-decoration-none fw-medium text-muted"
+            href="./pages/food.html"
+            >View all</a
+          >
         </div>
         <div class="d-flex gap-2 card-container">
           <div class="border border-3 rounded-4 text-center p-3 pt-2 my-card">
@@ -267,7 +338,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -290,7 +364,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -313,7 +390,10 @@
                 <p class="text-secondary">31 December 2022</p>
               </div>
               <div class="card-comment">
-                <p class="text-start">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto doloribus officiis fugiat expedita illum unde!"</p>
+                <p class="text-start">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto doloribus officiis fugiat expedita illum unde!"
+                </p>
               </div>
             </div>
           </div>
@@ -323,7 +403,7 @@
 
     <footer class="footer mt-auto py-3 bg-light">
       <div class="container text-center">
-        <span class="text-muted">Made by SE Summer 2022</span>
+        <span class="text-muted">Made by SE Summer 2022 with ❤️</span>
       </div>
     </footer>
   </body>
@@ -332,4 +412,5 @@
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"
   ></script>
+  <script src="./assets/js/main.js"></script>
 </html>

@@ -10,3 +10,11 @@
   height: 70px;
   overflow-y: scroll;
 }
+
+.big-font {
+  font-size: 100px;
+}
+
+.rating-container {
+  width: 196px;
+}
