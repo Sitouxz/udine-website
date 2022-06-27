@@ -76,4 +76,9 @@ class ResponseController extends Controller
         $responses = DB::select("select * from response where type = 'F'");
         return view('pages.food', ['responses' => $responses, 'title' => 'Food']);
     }
+
+    public function best() {
+        $responses = DB::select("select * from response where type = 'F'");
+        return view('pages.best', ['responses' => $responses, 'title' => 'Best Menu']);
+    }
 }
