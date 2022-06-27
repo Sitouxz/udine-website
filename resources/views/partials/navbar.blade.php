@@ -34,13 +34,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/vote/vote1.html">Rate</a>
+            <a class="nav-link {{ ($title === 'Rate') ? 'active text-primary' : '' }}" href="/rate">Rate</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ ($title === 'Best Menu') ? 'active text-primary' : '' }}" href="/best-menu">Best Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/overall-rating.html"
+            <a class="nav-link {{ ($title === 'Overall Rating') ? 'active text-primary' : '' }}" href="/overall"
               >Overall Rating</a
             >
           </li>

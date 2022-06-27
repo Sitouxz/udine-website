@@ -19,9 +19,4 @@ Route::get('/', [ResponseController::class, 'index']);
 Route::get('environment', [ResponseController::class, 'environment']);
 Route::get('service', [ResponseController::class, 'service']);
 Route::get('food', [ResponseController::class, 'food']);
-
-Route::get('/best-menu', function () {
-    return view('best-menu', [
-        "title" => "Best Menu"
-    ]);
-});
+Route::get('overall', [ResponseController::class, 'overall']);

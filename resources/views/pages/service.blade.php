@@ -11,7 +11,7 @@
               title="Rating how they serve"
             ></i>
             <h3 class="m-0 me-2">Service</h3>
-            <span class="text-muted me-1">4.5</span
+            <span class="text-muted me-1">{{ $saverageRating }}</span
             ><i class="bi bi-star-fill star-icon text-warning"></i>
           </div>
         </div>

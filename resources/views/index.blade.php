@@ -11,7 +11,7 @@
               title="Rating about the environment"
             ></i>
             <h3 class="m-0 me-2">Environment</h3>
-            <span class="text-muted me-1">4.5</span
+            <span class="text-muted me-1">{{ $eaverageRating }}</span
             ><i class="bi bi-star-fill star-icon text-warning"></i>
           </div>
           <a
@@ -37,8 +37,8 @@
               title="Rating about how they serve you"
             ></i>
             <h3 class="m-0 me-2">Service</h3>
-            <span class="text-muted me-1">4.5</span
-            ><i class="bi bi-star-fill star-icon text-warning"></i>
+            <span class="text-muted me-1">{{ $saverageRating }}</span>
+            <i class="bi bi-star-fill star-icon text-warning"></i>
           </div>
           <a
             class="text-decoration-none fw-medium text-muted"
@@ -63,7 +63,7 @@
               title="Rating how the food taste"
             ></i>
             <h3 class="m-0 me-2">Food</h3>
-            <span class="text-muted me-1">4.5</span
+            <span class="text-muted me-1">{{ $faverageRating }}</span
             ><i class="bi bi-star-fill star-icon text-warning"></i>
           </div>
           <a

@@ -11,7 +11,7 @@
               title="Rating about the menu"
             ></i>
             <h3 class="m-0 me-2">Food</h3>
-            <span class="text-muted me-1">4.5</span
+            <span class="text-muted me-1">{{ $faverageRating }}</span
             ><i class="bi bi-star-fill star-icon text-warning"></i>
           </div>
         </div>
